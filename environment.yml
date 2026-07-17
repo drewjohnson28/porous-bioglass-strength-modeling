@@ -1,0 +1,21 @@
+name: porous-bioglass-ml
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - openpyxl
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+      - python-dotenv
+      - shap
