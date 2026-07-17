@@ -1,0 +1,23 @@
+Feature,Importance
+numeric__Cross-Sectional Area (mm^2),0.2699805293606037
+numeric__Volume Loss (%),0.17241455592145727
+numeric__Mass Loss (%),0.16190025177597567
+numeric__Final Mass (g),0.12160555848056905
+numeric__Porosity (%),0.1079231495743247
+numeric__Mass Loss (g),0.09133463261600729
+numeric__Volume Loss (cm^3),0.024897204528291035
+numeric__Final Volume (cm^3),0.017053690058624456
+categorical__Binder Composition_PVA PEG200,0.01010742735799897
+categorical__Binder Composition_PVA,0.008926480800667028
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:20,0.004275534611036226
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:10,0.003678085494547265
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:0,0.0027415125979996773
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:30,0.0008315026952463964
+categorical__Binder Composition_PVA Glycerol,0.0007172718985302403
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:5,0.0006653667512218864
+categorical__Size_Cotton 5mm,0.00033361843734716455
+categorical__Feed Mix (g Bioglass : g PEG6000)_100:40,0.0003271854111387233
+categorical__Size_Evans 6mm,0.0001429974522837161
+categorical__Size_Evans 12mm,0.00010720406885839917
+categorical__Size_19mmx19mm plate,3.2293473037295394e-05
+categorical__Size_13mmx13mm plate,3.946634233795121e-06
