@@ -30,3 +30,25 @@ Available variables include:
 ## Data access
 
 The dataset was produced from the author's experimental research samples. The data may not be copied or reused in any format outside of the usage in this project. All data is proprietary and propety of NovaBone Products LLC.
+## Processed Data Files
+
+- `scaffold_data_clean.csv`  
+  Cleaned version of the original Excel dataset produced by `01_data_acquisition.ipynb`.
+
+- `main_features.csv`  
+  Main materials and processing feature table used for modeling. Excludes direct target leakage and excludes cross-sectional area.
+
+- `geometry_features.csv`  
+  Geometry-inclusive feature table used to test whether cross-sectional area improves prediction.
+
+- `target_and_groups.csv`  
+  Contains the regression target, `Maximum Stress (MPa)`, and `Group ID` used for grouped cross-validation.
+
+- `model_comparison.csv`  
+  Summary of grouped cross-validation performance for all tested regression models.
+
+- `oof_predictions.csv`  
+  Grouped out-of-fold predictions for the random forest models.
+
+- `feature_importance.csv`  
+  Impurity-based feature importance values from the fitted geometry-inclusive random forest.
