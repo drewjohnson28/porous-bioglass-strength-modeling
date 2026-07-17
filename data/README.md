@@ -1,12 +1,26 @@
 # Data
 
-This folder contains the data used for the EMA6938 final project on predicting the ultimate compressive strength of porous 45S5 bioactive glass scaffolds.
+This folder contains the experimental dataset and processed data used for the EMA6938 final project.
 
-## Original dataset
+## Dataset
 
-The original dataset contains approximately 256 experimentally fabricated scaffold samples. Variables include sample identifiers, fabrication groups, particle-size category, specimen dimensions, binder composition, sintering conditions, mass and volume measurements, compressive load, cross-sectional area, calculated maximum stress, and porosity.
+The dataset contains approximately 256 experimentally fabricated porous 45S5 bioactive glass scaffold samples.
 
-The primary regression target is maximum compressive stress in MPa. The force measurement reported in newtons is treated as compressive load rather than compressive strength.
+The primary prediction target is maximum compressive stress in MPa.
+
+Available variables include:
+
+- sample and fabrication group identifiers
+- specimen dimensions
+- particle-size category
+- binder composition
+- sintering temperature
+- sintering hold time
+- mass and volume measurements
+- compressive load
+- cross-sectional area
+- porosity
+- maximum stress
 
 ## Files
 
