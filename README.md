@@ -18,6 +18,17 @@ The project compares:
 - random forest regression
 
 Grouped validation will be used to reduce leakage between related fabrication groups.
+## Key Results
+
+The geometry-inclusive random forest produced the lowest grouped out-of-fold error:
+
+- Mean absolute error: 10.969 MPa
+- Root mean squared error: 16.403 MPa
+- R2: 0.080
+
+The model improved on the porosity-only and Lasso baselines, but overall grouped generalization remained weak. Predictions tended to regress toward the mean, with low-strength samples often overpredicted and high-strength samples often underpredicted.
+
+<img width="2068" height="1768" alt="geometry_rf_parity_plot" src="https://github.com/user-attachments/assets/37939054-047a-4df0-a669-ebc1385afbc8" />
 
 ## Dataset
 
